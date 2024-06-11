@@ -1,0 +1,15 @@
+.blog {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+.blog h2 {
+    margin-top: 0;
+}
+
+.blog-post {
+    margin: 1rem 0;
+}

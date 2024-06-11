@@ -1,0 +1,46 @@
+.layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.background-falling-letters {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    z-index: 2;
+}
+
+.social-media a {
+    color: yellow;
+    font-size: 50px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: green;
+}
+
+.content-bottom-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}

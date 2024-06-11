@@ -1,0 +1,87 @@
+/* .blinking-terminal {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f0;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+.input {
+    background: none;
+    border: none;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+}
+
+.cursor {
+    display: inline-block;
+    width: 10px;
+    background: #0f0;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+} */
+.terminal {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid rgba(0, 128, 0, 0);
+    color: yellow;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+.terminal.expanded {
+    width: 500px;
+    height: 300px;
+}
+
+.terminal form {
+    display: flex;
+    align-items: center;
+}
+
+.terminal-input {
+    background: black;
+    color: green;
+    border: none;
+    outline: none;
+    width: 80%;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.cursor {
+    background-color: green;
+    width: 10px;
+    height: 20px;
+    margin-left: -240px;
+    animation: blink 1s step-end infinite;
+}
+
+.cursor.hidden {
+    display: none;
+}
+
+@keyframes blink {
+    from, to {
+        background: transparent;
+    }
+    50% {
+        background: green;
+    }
+}
+
+.terminal p {
+    color: yellow;
+}

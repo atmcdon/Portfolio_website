@@ -1,0 +1,22 @@
+.terminal {
+    background-color: #000;
+    color: #0f0;
+    padding: 1rem;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal .output {
+    height: 150px;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+}
+
+.terminal input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #111;
+    color: #0f0;
+}
+
