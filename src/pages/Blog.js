@@ -11,12 +11,14 @@ const blogPosts = [
 const Blog = () => {
     return (
         <div className="blog">
-            <h2>Blog</h2>
+
+            <h2>Blog Posts</h2>
             {blogPosts.map((post, index) => (
                 <BlogPost key={index} {...post} />
             ))}
         </div>
     );
+
 };
 
 export default Blog;

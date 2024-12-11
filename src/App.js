@@ -33,6 +33,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import './App.css';
 
+
+
+
 const App = () => {
     return (
         <Router>

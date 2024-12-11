@@ -64,6 +64,7 @@ const Home = () => {
                         <p>Hint it starts with a "p".</p>
                     </div>
                 </div>
+                
                 <div className="content-box">
                     <div id="projects" className="section-box">
                         <h2>Projects</h2>
